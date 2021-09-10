@@ -16,8 +16,7 @@
 
 ```bash
 $ git clone https://github.com/jenry23/Exam.git
-$ git clone https://github.com/jenry23/Exam.git
-$ cd laravel-vue-crud-starter/
+$ cd exam/
 $ composer install
 $ cp .env.example .env
 update .env and set your database credentials
