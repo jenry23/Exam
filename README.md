@@ -7,12 +7,9 @@
 - Vuejs
 
 ## Features
-- User Management
-   User Roles and permissions
-- Expense Management
-   Keeps track of user’s expenses
-- Dashboard
-   Display chart of total expense per category
+- User Management - User Roles and permissions
+- Expense Management - Keeps track of user’s expenses
+- Dashboard - Display chart of total expense per category
 
 ## Installation
 
