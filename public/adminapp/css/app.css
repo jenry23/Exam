@@ -9463,7 +9463,7 @@ a.text-dark:focus {
 
 .btn {
   position: relative;
-  padding: 12px 30px;
+  padding: 6px 15px;
   margin: 0.3125rem 1px;
   font-size: 0.75rem;
   font-weight: 400;
@@ -9474,7 +9474,7 @@ a.text-dark:focus {
   cursor: pointer;
   background-color: transparent;
   border: 0;
-  border-radius: 0.2rem;
+  border-radius: 1.2rem;
   outline: 0;
   transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   will-change: box-shadow, transform;
@@ -9491,14 +9491,14 @@ a.text-dark:focus {
 
 .btn.btn-primary {
   color: #fff;
-  background-color: #9c27b0;
+  background-color: #fb6604cf;
   border-color: #9c27b0;
   box-shadow: 0 2px 2px 0 rgba(156, 39, 176, 0.14), 0 3px 1px -2px rgba(156, 39, 176, 0.2), 0 1px 5px 0 rgba(156, 39, 176, 0.12);
 }
 
 .btn.btn-primary:hover {
   color: #fff;
-  background-color: #9124a3;
+  background-color: #919191;
   border-color: #701c7e;
 }
 
@@ -9506,7 +9506,7 @@ a.text-dark:focus {
 .btn.btn-primary.focus,
 .btn.btn-primary:hover {
   color: #fff;
-  background-color: #9124a3;
+  background-color: #919191;
   border-color: #701c7e;
 }
 
@@ -10122,7 +10122,7 @@ a.text-dark:focus {
 .btn,
 .btn.btn-default {
   color: #fff;
-  background-color: #999999;
+  background-color: #004e86;
   border-color: #999999;
   box-shadow: 0 2px 2px 0 rgba(153, 153, 153, 0.14), 0 3px 1px -2px rgba(153, 153, 153, 0.2), 0 1px 5px 0 rgba(153, 153, 153, 0.12);
 }
@@ -15288,7 +15288,7 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
   position: relative;
   height: calc(100vh - 75px);
   overflow: auto;
-  width: 260px;
+  width: 100%;
   z-index: 4;
   padding-bottom: 30px;
 }
@@ -19096,7 +19096,7 @@ Copyright (c) 2015 Daniel Eden
     display: block;
     top: 0;
     height: 100vh;
-    width: 260px;
+    width: 100%;
     right: 0;
     left: auto;
     z-index: 1032;
@@ -19107,7 +19107,7 @@ Copyright (c) 2015 Daniel Eden
     text-align: left;
     padding-right: 0px;
     padding-left: 0;
-    transform: translate3d(260px, 0, 0);
+    transform: translate3d(100%, 0, 0);
     transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
   }
 
